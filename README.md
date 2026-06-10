@@ -1,6 +1,6 @@
 # Grundlagen der automatischen Spracherkennung WiSe 2025 Programmierpraktikum
 
-This project was carried out as a programming practical as part of the course "Grundlagen der automatischen Spracherkennung" (Foundations of Automatic speech Recognition) at TU Berlin. It implements a gender classification network distinguishing between male and female voices as well as a hybrid DNN/HMMs for automatic digit transcription.
+This project was carried out as a programming practical as part of the course "Grundlagen der automatischen Spracherkennung" (Foundations of Automatic speech Recognition) at TU Berlin. It implements a gender classification network distinguishing between male and female voices as well as hybrid DNN/HMMs for automatic digit transcription.
 
 ## Key Features
 - **Handcrafted Feature Extraction**: Implementation of speech processing algorithms including Short-Time Fourier Transform (STFT), Mel filterbanks, and Mel-Frequency Cepstral Coefficients (MFCC) supplemented with first and second derivatives as well as temporal context windowing.
@@ -12,6 +12,8 @@ This project was carried out as a programming practical as part of the course "G
 - **Exercises**: Showcase, visualization and explanation of each audio processing part of this project including spectrogram plotting, model training and WER evaluation.
 
 ## Evaluation
+The models were tested using the VoxCeleb and TIDIGITS datasets.
+
 | Model | Accuracy | WER |
 | :--- | :--- | :--- |
 | **Gender Classifier** | 0.9580 | - |
