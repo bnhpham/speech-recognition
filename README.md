@@ -16,7 +16,7 @@ The models were trained and tested using the VoxCeleb (gender classification) an
 
 | Model | Accuracy | WER |
 | :--- | :--- | :--- |
-| **Gender Classifier** | 95.80% | — |
+| **Gender Classifier** | 95.40% | — |
 | **DNN/HMM** | 64.22%  | 3.27% |
 | **BLSTM/HMM** | 75.11% | 1.19% |
 
